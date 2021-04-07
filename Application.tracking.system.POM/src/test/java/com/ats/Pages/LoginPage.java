@@ -23,6 +23,12 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
+	/*
+	 * public void logintoATS(String Uname, String Pass) {
+	 * 
+	 * driver.findElement(Username).sendKeys(Uname);
+	 * driver.findElement(Username).sendKeys(Pass); }
+	 */
 	public void typeusername() {
 
 		driver.findElement(Username).sendKeys("manjula@talentrecruit.in");
