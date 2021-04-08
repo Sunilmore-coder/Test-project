@@ -7,8 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 /**
- * @author ADMIN this class will store all the locators and methods of login
- *         page
+ * @author ADMIN 
+ * this class will store all the locators and methods of login page
  */
 public class LoginPage {
 
