@@ -5,9 +5,15 @@
     <classes>
       <class name="Tests.SignUpTestNGExample">
         <methods>
+          <include name="test6_canSubmitVerificationCodeToPlayground"/>
           <include name="test7_canLoginWithConfirmedUser"/>
+          <include name="test2_canClickSignUpButton"/>
           <include name="initTestSuite"/>
           <include name="tearDown"/>
+          <include name="test3_canCreateEmailAddressAndSignUp"/>
+          <include name="test5_canExtractConfirmationCodeFromEmail"/>
+          <include name="test1_canLoadAuthenticationPlayground"/>
+          <include name="test4_canReceiveConfirmationEmail"/>
         </methods>
       </class> <!-- Tests.SignUpTestNGExample -->
     </classes>
